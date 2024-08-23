@@ -1,19 +1,18 @@
+import Victor from "../../assets/image-victor.jpg";
+import CardHeader from "../../assets/bg-pattern-card.svg";
+
 function Card({ name, idade, local, numeros }) {
   return (
     <>
       <div className="flex justify-center mt-64 ">
         <div className="w-80 h-80 rounded-2xl pb-4 bg-white  z-10">
           <div className="relative">
-            <img
-              className="rounded-t-xl"
-              src="/images/bg-pattern-card.svg"
-              alt=""
-            />
+            <img className="rounded-t-xl" src={CardHeader} alt="" />
           </div>
           <div className="flex justify-center mb-4">
             <img
               className="absolute top-80 border-4 border-white rounded-full"
-              src="/images/image-victor.jpg"
+              src={Victor}
               alt="Victor"
             />
           </div>

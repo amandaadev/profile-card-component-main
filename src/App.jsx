@@ -1,5 +1,6 @@
 import Card from "./components/card/index";
 import Topo from "./assets/bg-pattern-top.svg";
+import Bottom from "./assets/bg-pattern-bottom.svg";
 
 const peoples = [
   {
@@ -20,7 +21,7 @@ function App() {
         <img src={Topo} alt="" />
       </div>
       <div className="absolute -bottom-72 -right-48 z-0">
-        <img src="/images/bg-pattern-bottom.svg" alt="" />
+        <img src={Bottom} alt="" />
       </div>
       <div className="flex h-full gap-8 justify-center">
         {peoples.map((people, index) => (
