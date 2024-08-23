@@ -6,14 +6,14 @@ function Card({ name, idade, local, numeros }) {
           <div className="relative">
             <img
               className="rounded-t-xl"
-              src="./images/bg-pattern-card.svg"
+              src="/images/bg-pattern-card.svg"
               alt=""
             />
           </div>
           <div className="flex justify-center mb-4">
             <img
               className="absolute top-80 border-4 border-white rounded-full"
-              src="./images/image-victor.jpg"
+              src="/images/image-victor.jpg"
               alt="Victor"
             />
           </div>
