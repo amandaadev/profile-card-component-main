@@ -1,4 +1,5 @@
 import Card from "./components/card/index";
+import Topo from "./assets/bg-pattern-top.svg";
 
 const peoples = [
   {
@@ -16,7 +17,7 @@ function App() {
   return (
     <>
       <div className="absolute -top-1/3 -left-48 z-0">
-        <img src="/images/bg-pattern-top.svg" alt="" />
+        <img src={Topo} alt="" />
       </div>
       <div className="absolute -bottom-72 -right-48 z-0">
         <img src="/images/bg-pattern-bottom.svg" alt="" />
