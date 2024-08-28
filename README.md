@@ -9,6 +9,7 @@ Deploy: [Card Component](https://amandaadev.github.io/profile-card-component-mai
 ## Índice
 
 - <a href="#sobre-o-projeto">Sobre o projeto</a>
+- <a href="#tecnologias-utilizadas"> Desenvolvido por</a>
 - <a href="#desenvolvido-por"> Desenvolvido por</a>
 
 ## 📝Sobre o projeto
