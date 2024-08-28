@@ -13,6 +13,7 @@ const peoples = [
       photos: 1.4,
     },
   },
+  // Caso queira adicionar mais cards, basta adicionar novos objetos aqui no array.
 ];
 function App() {
   return (
